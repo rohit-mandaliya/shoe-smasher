@@ -1,0 +1,22 @@
+.imageClick {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+#imageDisplay {
+    width: 35%;
+    height: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .imageClick {
+        width: 100%;
+        height: 100%;
+    }
+
+    #imageDisplay {
+        width: 100%;
+        height: 100%;
+    }
+}
